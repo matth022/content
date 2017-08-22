@@ -2,7 +2,7 @@
   "name": "content",
   "description": "HTTP Content-* headers parsing",
   "version": "3.0.5",
-  "repository": "git://github.com/hapijs/content",
+  "repository": "git://github.com/matth022/content",
   "main": "lib/index.js",
   "keywords": [
     "HTTP",
@@ -15,7 +15,7 @@
     "node": ">=4.5.0"
   },
   "dependencies": {
-    "boom": "5.x.x"
+    "boom": "git+https://github.com/matth022/boom.git"
   },
   "devDependencies": {
     "code": "4.x.x",
